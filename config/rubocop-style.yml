@@ -1,0 +1,44 @@
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: true
+  Exclude:
+    - bin/*
+
+Style/MultilineIfModifier:
+  Enabled: false
+
+Style/MultilineTernaryOperator:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Style/RaiseArgs:
+  Enabled: true
+  EnforcedStyle: compact
+
+Style/RescueModifier:
+  Enabled: false
+
+Style/Semicolon:
+  AllowAsExpressionSeparator: true
+  Enabled: true
+
+Style/SymbolArray:
+  Enabled: true
+  EnforcedStyle: brackets
+  MinSize: 1
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: no_comma
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: no_comma
+
+Style/WordArray:
+  Enabled: true
+  EnforcedStyle: brackets

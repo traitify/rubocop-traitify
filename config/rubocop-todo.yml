@@ -1,0 +1,7 @@
+# TODO: Disabled until rule fixed for symbols
+Airbnb/ClassName:
+  Enabled: false
+
+# TODO: Disabled until rule fixed
+Layout/RescueEnsureAlignment:
+  Enabled: false

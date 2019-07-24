@@ -1,0 +1,16 @@
+AllCops:
+  Exclude:
+    - bin/yarn
+    - db/schema.rb
+
+inherit_from:
+  - ./rubocop-airbnb.yml
+  - ./rubocop-layout.yml
+  - ./rubocop-lint.yml
+  - ./rubocop-style.yml
+  - ./rubocop-todo.yml
+
+# TODO: Remove. Move to specific rules that need it
+inherit_mode:
+  merge:
+    - Exclude
