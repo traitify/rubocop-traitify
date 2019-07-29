@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
     "{config,lib}/**/*",
     "*.md",
     "*.gemspec",
+    ".rubocop_traitify.yml",
     "Gemfile"
   ]
 
