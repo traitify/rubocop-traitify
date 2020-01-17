@@ -7,6 +7,7 @@ inherit_from:
   - ./rubocop-airbnb.yml
   - ./rubocop-layout.yml
   - ./rubocop-lint.yml
+  - ./rubocop-rails.yml
   - ./rubocop-style.yml
   - ./rubocop-todo.yml
 

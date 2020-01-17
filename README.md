@@ -4,12 +4,7 @@ Traitify's default configuration for [RuboCop](https://github.com/rubocop-hq/rub
 
 ## Installation
 
-Until `rubocop-airbnb` is updated to support ruby 2.6 a fork is required
-
 ```
-gem "rubocop-airbnb",
-  git: "https://github.com/mcamara/ruby.git",
-  glob: "rubocop-airbnb/*.gemspec" # Until airbnb supports ruby 2.6
 gem "rubocop-traitify"
 ```
 

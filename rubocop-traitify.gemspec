@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.version = RuboCop::Traitify::VERSION
   spec.platform = Gem::Platform::RUBY
-  spec.required_ruby_version = ">= 2.1"
+  spec.required_ruby_version = ">= 2.3"
   spec.require_paths = ["lib"]
   spec.files = Dir[
     "{config,lib}/**/*",
@@ -24,6 +24,5 @@ Gem::Specification.new do |spec|
     "Gemfile"
   ]
 
-  spec.add_dependency("rubocop", "~> 0.62.0")
-  spec.add_dependency("rubocop-airbnb", "~> 2.0.0")
+  spec.add_dependency("rubocop-airbnb", "~> 3.0.2")
 end

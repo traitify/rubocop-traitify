@@ -1,3 +1,7 @@
+Layout/AlignArguments:
+  Enabled: true
+  EnforcedStyle: with_fixed_indentation
+
 Layout/AlignParameters:
   Enabled: true
   EnforcedStyle: with_fixed_indentation

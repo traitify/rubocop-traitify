@@ -1,11 +1,34 @@
 # TODO: Disabled until rule fixed for symbols
-Airbnb/ClassName:
-  Enabled: false
-
-# TODO: Disabled until rule fixed for symbols
 Airbnb/FactoryClassUseString:
   Enabled: false
 
-# TODO: Disabled until rule fixed
-Layout/RescueEnsureAlignment:
-  Enabled: false
+  # TODO: Evaluate the following cops added between 0.58 and 0.76
+#   Gemspec/RubyVersionGlobalsUsage
+#   Layout/AlignArguments
+#   Layout/IndentFirstArgument
+#   Layout/IndentFirstArrayElement
+#   Layout/IndentFirstHashElement
+#   Lint/DisjunctiveAssignmentInConstructor
+#   Lint/RedundantCopDisableDirective
+#   Lint/RedundantCopEnableDirective
+#   Lint/RedundantRequireStatement
+#   Lint/RedundantSplatExpansion
+#   Lint/SafeNavigationWithEmpty
+#   Lint/SendWithMixinArgument
+#   Style/DoubleCopDisableDirective
+#   Style/FloatDivision
+#   Style/MultilineWhenThen
+#   Style/NegatedUnless
+#   Style/RedundantCapital
+#   Style/RedundantCondition
+#   Style/RedundantInterpolation
+#   Style/RedundantPercentQ
+#   Style/RedundantSort
+# Also added but default to disabled
+#   Bundler/GemComment
+#   Layout/HeredocArgumentClosingParenthesis
+#   Layout/MultilineArrayLineBreaks
+#   Layout/MultilineMethodArgumentLineBreaks
+#   Lint/HeredocMethodCallPosition
+#   Style/ConstantVisibility
+#   Style/MultilineMethodSignature
