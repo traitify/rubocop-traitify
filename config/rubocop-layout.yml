@@ -1,8 +1,4 @@
-Layout/AlignArguments:
-  Enabled: true
-  EnforcedStyle: with_fixed_indentation
-
-Layout/AlignParameters:
+Layout/ArgumentAlignment:
   Enabled: true
   EnforcedStyle: with_fixed_indentation
 
@@ -17,6 +13,10 @@ Layout/DotPosition:
 Layout/EndAlignment:
   Enabled: true
   EnforcedStyleAlignWith: start_of_line
+
+Layout/ParameterAlignment:
+  Enabled: true
+  EnforcedStyle: with_fixed_indentation
 
 Layout/SpaceBeforeBlockBraces:
   Enabled: true
