@@ -1,5 +1,5 @@
 module RuboCop
   module Traitify
-    VERSION = "1.1.0"
+    VERSION = "1.2.0.pre.alpha.0"
   end
 end

@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
     Airbnb's https://github.com/airbnb/ruby
   EOF
   spec.authors = ["Tom Prats"]
-  spec.email = ["tom@traitify.com"]
+  spec.email = ["tom.prats@paradox.ai"]
   spec.homepage = "https://github.com/traitify/rubocop-traitify"
   spec.license = "MIT"
   spec.version = RuboCop::Traitify::VERSION
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
     "Gemfile"
   ]
 
-  spec.add_dependency("rubocop-airbnb", "~> 4.0.0")
+  spec.add_dependency("rubocop-airbnb", "~> 6.0.0")
 end
