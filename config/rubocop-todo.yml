@@ -1,7 +1,0 @@
-# TODO: Disabled until rule fixed for symbols
-Airbnb/FactoryClassUseString:
-  Enabled: false
-
-# Disabled until rubocop 1.7.0
-Lint/BinaryOperatorWithIdenticalOperands:
-  Enabled: false

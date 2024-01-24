@@ -1,2 +1,11 @@
+# NOTE: Cop is too restrictive
 Rails/HelperInstanceVariable:
   Enabled: false
+
+# NOTE: Rendering inline is useful for 1 line views
+Rails/RenderInline:
+  Enabled: false
+
+Rails/WhereExists:
+  Enabled: true
+  EnforcedStyle: where

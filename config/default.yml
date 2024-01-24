@@ -9,7 +9,6 @@ inherit_from:
   - ./rubocop-lint.yml
   - ./rubocop-rails.yml
   - ./rubocop-style.yml
-  - ./rubocop-todo.yml
 
 # TODO: Remove. Move to specific rules that need it
 inherit_mode:

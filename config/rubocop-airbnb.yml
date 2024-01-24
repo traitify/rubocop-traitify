@@ -1,11 +1,10 @@
 require:
   - rubocop-airbnb
 
-Airbnb/DefaultScope:
-  Enabled: false
-
+# NOTE: Cop is too restrictive
 Airbnb/SimpleModifierConditional:
   Enabled: false
 
+# NOTE: Cop is too restrictive
 Airbnb/SimpleUnless:
   Enabled: false
