@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.version = RuboCop::Traitify::VERSION
   spec.platform = Gem::Platform::RUBY
-  spec.required_ruby_version = ">= 2.3"
+  spec.required_ruby_version = ">= 2.5"
   spec.require_paths = ["lib"]
   spec.files = Dir[
     "{config,lib}/**/*",
