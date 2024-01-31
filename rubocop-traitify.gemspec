@@ -9,12 +9,12 @@ Gem::Specification.new do |spec|
     Airbnb's https://github.com/airbnb/ruby
   EOF
   spec.authors = ["Tom Prats"]
-  spec.email = ["tom@traitify.com"]
+  spec.email = ["tom.prats@paradox.ai"]
   spec.homepage = "https://github.com/traitify/rubocop-traitify"
   spec.license = "MIT"
   spec.version = RuboCop::Traitify::VERSION
   spec.platform = Gem::Platform::RUBY
-  spec.required_ruby_version = ">= 2.3"
+  spec.required_ruby_version = ">= 2.5"
   spec.require_paths = ["lib"]
   spec.files = Dir[
     "{config,lib}/**/*",
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
     "Gemfile"
   ]
 
-  spec.add_dependency("rubocop-airbnb", "~> 4.0.0")
+  spec.add_dependency("rubocop-airbnb", "~> 6.0.0")
 end

@@ -1,3 +1,4 @@
+# NOTE: Helpful for chaining and simplicity
 Style/BlockDelimiters:
   Enabled: false
 
@@ -6,12 +7,15 @@ Style/MixinUsage:
   Exclude:
     - bin/*
 
+# NOTE: Easy to understand
 Style/MultilineIfModifier:
   Enabled: false
 
+# NOTE: Easy to understand
 Style/MultilineTernaryOperator:
   Enabled: false
 
+# NOTE: Prefer an array
 Style/PercentLiteralDelimiters:
   Enabled: false
 
@@ -19,6 +23,7 @@ Style/RaiseArgs:
   Enabled: true
   EnforcedStyle: compact
 
+# NOTE: Easy to understand
 Style/RescueModifier:
   Enabled: false
 

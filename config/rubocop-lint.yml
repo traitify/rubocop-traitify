@@ -1,2 +1,3 @@
+# NOTE: Allows for concise readable code
 Lint/AssignmentInCondition:
   Enabled: false
