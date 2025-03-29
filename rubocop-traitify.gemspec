@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
     "Gemfile"
   ]
 
-  spec.add_dependency("rubocop-airbnb", "~> 6.0.0")
+  spec.add_dependency("rubocop-airbnb", "~> 7.0.0")
 end
