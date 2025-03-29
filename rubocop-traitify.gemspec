@@ -2,14 +2,14 @@ $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 require "rubocop/traitify/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "rubocop-traitify"
+  spec.name = "rubocop-traitify-test"
   spec.summary = "Default Rubocop config for Traitify Apps"
   spec.description = <<-EOF
     Traitify's Ruby configuration for Rubocop. Heavily influenced by (as well as dependent on)
     Airbnb's https://github.com/airbnb/ruby
   EOF
-  spec.authors = ["Tom Prats"]
-  spec.email = ["tom.prats@paradox.ai"]
+  spec.authors = ["Tom Prats", "Jack Burum"]
+  spec.email = ["tom.prats@paradox.ai", "jack.burum@paradox.ai"]
   spec.homepage = "https://github.com/traitify/rubocop-traitify"
   spec.license = "MIT"
   spec.version = RuboCop::Traitify::VERSION
