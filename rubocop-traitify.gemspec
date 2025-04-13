@@ -2,7 +2,7 @@ $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 require "rubocop/traitify/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "rubocop-traitify-test"
+  spec.name = "rubocop-traitify"
   spec.summary = "Default Rubocop config for Traitify Apps"
   spec.description = <<-EOF
     Traitify's Ruby configuration for Rubocop. Heavily influenced by (as well as dependent on)
