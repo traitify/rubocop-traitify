@@ -8,13 +8,13 @@ Gem::Specification.new do |spec|
     Traitify's Ruby configuration for Rubocop. Heavily influenced by (as well as dependent on)
     Airbnb's https://github.com/airbnb/ruby
   EOF
-  spec.authors = ["Tom Prats"]
-  spec.email = ["tom.prats@paradox.ai"]
+  spec.authors = ["Tom Prats", "Jack Burum"]
+  spec.email = ["tom.prats@paradox.ai", "jack.burum@paradox.ai"]
   spec.homepage = "https://github.com/traitify/rubocop-traitify"
   spec.license = "MIT"
   spec.version = RuboCop::Traitify::VERSION
   spec.platform = Gem::Platform::RUBY
-  spec.required_ruby_version = ">= 2.5"
+  spec.required_ruby_version = ">= 2.7"
   spec.require_paths = ["lib"]
   spec.files = Dir[
     "{config,lib}/**/*",
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
     "Gemfile"
   ]
 
-  spec.add_dependency("rubocop-airbnb", "~> 6.0.0")
+  spec.add_dependency("rubocop-airbnb", "~> 8.0.0")
 end
