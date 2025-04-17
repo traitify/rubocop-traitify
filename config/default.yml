@@ -2,8 +2,6 @@ AllCops:
   Exclude:
     - bin/yarn
     - db/schema.rb
-    - lib/protobufs/traitify
-    - lib/protobufs/traitify/**
     - lib/protobufs/traitify/**/*
 
 inherit_from:
