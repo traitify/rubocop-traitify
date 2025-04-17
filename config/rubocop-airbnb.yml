@@ -8,10 +8,3 @@ Airbnb/SimpleModifierConditional:
 # NOTE: Cop is too restrictive
 Airbnb/SimpleUnless:
   Enabled: false
-
-# TODO REMOVE IF SATISFIED IN 8.0.0
-# Capybara/CurrentPathExpectation:
-
-# FactoryBot/AttributeDefinedStatically:
-
-# FactoryBot/CreateList:
